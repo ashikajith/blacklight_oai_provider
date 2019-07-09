@@ -587,7 +587,7 @@ p.intro {
 <xsl:template match="dc:contributor" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <tr><td class="key">Other Contributor</td><td class="value"><xsl:value-of select="."/></td></tr></xsl:template>
 
-<xsl:template match="dc:editor" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<xsl:template match="dc:contributor.editor" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <tr><td class="key">Editor</td><td class="value"><xsl:value-of select="."/></td></tr></xsl:template>
 
 <xsl:template match="dc:date" xmlns:dc="http://purl.org/dc/elements/1.1/">
